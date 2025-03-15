@@ -29,7 +29,7 @@ if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
   filer.download((err, data) => {
     if (err) throw err;
     fs.writeFile(__dirname + '/auth_info_baileys/creds.json', data, () => {
-      console.log("KING-MS_YT 💚 Session downloaded ✅");
+      console.log("MS-xRD 💚 Session downloaded ✅");
     });
   });
 }
@@ -41,7 +41,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-  console.log("KING-MS_YT 💚 Connecting wa bot 🧬...");
+  console.log("MS-xRD 💚 Connecting wa bot 🧬...");
   const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/');
   var { version } = await fetchLatestBaileysVersion();
 
@@ -61,17 +61,17 @@ async function connectToWA() {
         connectToWA();
       }
     } else if (connection === 'open') {
-      console.log('KING-MS_YT 💚 😼 Installing...');
+      console.log('MS-xRD 💚 😼 Installing...');
       const path = require('path');
       fs.readdirSync("./plugins/").forEach((plugin) => {
         if (path.extname(plugin).toLowerCase() == ".js") {
           require("./plugins/" + plugin);
         }
       });
-      console.log('KING-MS_YT 💚 Plugins installed successful ✅');
-      console.log('KING-MS_YT 💚 Bot connected to WhatsApp ✅');
+      console.log('MS-xRD 💚 Plugins installed successful ✅');
+      console.log('MS-xRD 💚 Bot connected to WhatsApp ✅');
       
-      let up = `KING-MS_YT 💚 Wa-BOT connected successful ✅\n\nPREFIX: ${prefix}`;
+      let up = `MS-xRD 💚 Wa-BOT connected successful ✅\n\nPREFIX: ${prefix}`;
       conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: 'https://i.ibb.co/tC37Q7B/20241220-122443.jpg' }, caption: up });
     }
   });
