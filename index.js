@@ -71,7 +71,7 @@ async function connectToWA() {
       console.log('KING-MS_YT 💚 Plugins installed successful ✅');
       console.log('KING-MS_YT 💚 Bot connected to WhatsApp ✅');
       
-      let up = `SHASNI-MD 💚 Wa-BOT connected successful ✅\n\nPREFIX: ${prefix}`;
+      let up = `KING-MS_YT 💚 Wa-BOT connected successful ✅\n\nPREFIX: ${prefix}`;
       conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: 'https://i.ibb.co/tC37Q7B/20241220-122443.jpg' }, caption: up });
     }
   });
