@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name KING-MS_YT",
-    "stop": "pm2 stop SHASNI-MD",
+    "stop": "pm2 stop KING-MS_YT",
     "restart": "pm2 restart KING-MS_YT"
   },
   "dependencies": {
