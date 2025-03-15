@@ -1,5 +1,5 @@
 {
-  "name": "KING-MS_YT",
+  "name": "MS-xRD",
   "description": "Javascript WhatsApp bot made by dushan",
   "logo": "https://i.ibb.co/LXh1pV1V/4d706efa31e4e172.jpg",
   "keywords": ["bot"],
@@ -7,7 +7,7 @@
 
   "env": {
     "SESSION_ID": {
-      "description": "jello👋",
+      "description": "seaaion id",
       "required": true
     }
 
