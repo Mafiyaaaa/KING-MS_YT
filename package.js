@@ -4,7 +4,7 @@
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name KING-MS_YT",
+    "start": "node index.js --deep-monitoring --attach --name KING-MS_YT",
     "stop": "pm2 stop MS-xRD",
     "restart": "pm2 restart MS-xRD"
   },
