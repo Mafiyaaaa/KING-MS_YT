@@ -1,0 +1,24 @@
+{
+  "name": "KING-MS_YT",
+  "description": "Javascript WhatsApp bot made by dushan",
+  "logo": "https://i.ibb.co/LXh1pV1V/4d706efa31e4e172.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "jrAgHAAZ#g1uiVdAqjeddD3L3yQw0KWnPZiDDEsLLJHqztxJzNjg",
+      "required": true
+    }
+
+    
+    
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
