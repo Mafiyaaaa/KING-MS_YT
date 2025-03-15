@@ -8,8 +8,8 @@ module.exports = {
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false",
 AUTO_REACT_STATUS: process.env.AUTO_REACT_STATUS || "false",
 OWNER_REACT: process.env.OWNER_REACT || "false", // true or false
-STATUS_READ_MSG: process.env.STATUS_READ_MSG || "KING-MS_YT 💚",
-FOOTER: process.env.FOOTER || "KING-MS_YT 💚",
+STATUS_READ_MSG: process.env.STATUS_READ_MSG || "MS-xRD 💚",
+FOOTER: process.env.FOOTER || "MS-xRD 💚",
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 IMAGE_LIMIT: process.env.IMAGE_LIMIT || "3",
 ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/LXh1pV1V/4d706efa31e4e172.jpg",
